@@ -5,11 +5,13 @@ import Navbar from "./components/Navbar";
 import Content from "./components/Content";
 
 function App() {
-    //geographical.co.uk/science-environment/the-rise-of-the-somalaya-mountain-range>
     return (
-        <div className="app-wrapper">
+        <div>
             <Header />
-            <Navbar />
+            <Navbar titleNavbar={"Profile"} />
+            <Navbar titleNavbar={"Message"} />
+            <Navbar titleNavbar={"News"} />
+            <Navbar titleNavbar={"Settings"} />
             <Content />
         </div>
     );
